@@ -20,7 +20,7 @@ def send_text():
 	print ('message sent')
 
 """schedule texts"""
-schedule.every(1).minutes.do(send_text)
+schedule.every.day.at("08:00").do(send_text)
 
 while True:
 	schedule.run_pending()
