@@ -1,1 +1,12 @@
 nohup: send_sms.py: No such file or directory
+from: can't read /var/mail/twilio.rest
+from: can't read /var/mail/credentials
+./send_sms.py: line 3: import: command not found
+./send_sms.py: line 4: import: command not found
+./send_sms.py: line 5: import: command not found
+./send_sms.py: line 7: Get weather for curent day: command not found
+./send_sms.py: line 8: api_key: command not found
+./send_sms.py: line 9: lat: command not found
+./send_sms.py: line 10: lng: command not found
+./send_sms.py: line 11: syntax error near unexpected token `('
+./send_sms.py: line 11: `forecast = forecastio.load_forecast(api_key, lat, lng)'
